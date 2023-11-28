@@ -1,7 +1,6 @@
 # Overview:
-Explain the purpose of this analysis.
 
-The pupose of this activity was to create a neural network model for the nonprofit foundation "Alphabet Soup" to help select applicants for funding with the best chance of success in their ventures. The neural network model uses the features in the dataset to create a binary classifier that can predict whether applicants will be successful if funded by Alphabet Soup.
+The purpose of this activity was to create a neural network model for the nonprofit foundation "Alphabet Soup" to help select applicants for funding with the best chance of success in their ventures. The neural network model uses the features in the dataset to create a binary classifier that can predict whether applicants will be successful if funded by Alphabet Soup.
 
 # Results:
 Using bulleted lists and images to support your answers, address the following questions:
