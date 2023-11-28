@@ -1,4 +1,4 @@
-# deep-learning-challenge
+# Deep Learning: Developing a Binary Classification Model
 
 # Overview:
 
