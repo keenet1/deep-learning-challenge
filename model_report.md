@@ -9,9 +9,11 @@ Using bulleted lists and images to support your answers, address the following q
 ## Data Preprocessing
 1. What variable(s) are the target(s) for your model?
    The target variable is the "IS_SUCCESSFUL" column from the application_df
-2. What variable(s) are the features for your model?
+   
+3. What variable(s) are the features for your model?
    The features are all of the other columns that remain in the dataframe after the target column("IS_SUCCESSFUL") is dropped
-3. What variable(s) should be removed from the input data because they are neither targets nor features?
+ 
+5. What variable(s) should be removed from the input data because they are neither targets nor features?
    The "EIN" and "NAME" columns should be removed
 
 ## Compiling, Training, and Evaluating the Model
