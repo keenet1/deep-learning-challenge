@@ -30,6 +30,9 @@ After the initial pass, I tried several methods to optimize the model including:
 Overall, the model was approximately 73% accurate. One additional approach that could be tried to increase model accuracy would be to sort the initial data by further binning. Additionally, more hidden layers could be added to increase the power of the model. Finally, additional activation functions could be attempted for each of the hidden layers.
 
 Resources:  
+Web Resources:
+https://www.v7labs.com/blog/neural-networks-activation-functions#:~:text=Since%20only%20a%20certain%20number,linear%2C%20non%2Dsaturating%20property.
+
 Some coding I looked at for inspiration:  
 https://github.com/Hamim-Hussain/Enhancing-Deep-Learning-Model-Performance
 
