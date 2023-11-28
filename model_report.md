@@ -7,7 +7,7 @@ The pupose of this activity was to create a neural network model for the nonprof
 Using bulleted lists and images to support your answers, address the following questions:
 
 ## Data Preprocessing
-1. What variable(s) are the target(s) for your model?
+1. What variable(s) are the target(s) for your model?<br/>
    The target variable is the "IS_SUCCESSFUL" column from the application_df
    
 2. What variable(s) are the features for your model?
