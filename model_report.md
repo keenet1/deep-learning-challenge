@@ -10,20 +10,20 @@ Using bulleted lists and images to support your answers, address the following q
 1. What variable(s) are the target(s) for your model?<br/>
    The target variable is the "IS_SUCCESSFUL" column from the application_df
    
-2. What variable(s) are the features for your model?
+2. What variable(s) are the features for your model?<br/>
    The features are all of the other columns that remain in the dataframe after the target column("IS_SUCCESSFUL") is dropped
  
-3. What variable(s) should be removed from the input data because they are neither targets nor features?
+3. What variable(s) should be removed from the input data because they are neither targets nor features?<br/>
    The "EIN" and "NAME" columns should be removed
 
 ## Compiling, Training, and Evaluating the Model
-1. How many neurons, layers, and activation functions did you select for your neural network model, and why?
+1. How many neurons, layers, and activation functions did you select for your neural network model, and why?<br/>
    Initially, I selected two hidden layers, with 80 units for the first hidden layer and 30 units for the second hidden layer. After some reading (article titled "Activation    Functions in Neural Networks [12 Types & Use Cases]" on v7labs.com), I decided to use the ReLU activation function for both hidden layers. For the output layer, I used       the Sigmoid activation function.
    
-2. Were you able to achieve the target model performance?
+2. Were you able to achieve the target model performance?<br/>
    I was not able to achieve the target accuracy of 75%
    
-4. What steps did you take in your attempts to increase model performance?
+3. What steps did you take in your attempts to increase model performance?<br/>
    After the initial pass, I tried several methods to optimize the model including: dropping additional columns from the dataframe, adjusting the number of units in the         hidden layers, changing the activation function(s) of the hidden layers, as well as adding a third hidden layer.
    
 # Summary: Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and then       explain your recommendation.
